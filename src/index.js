@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppFunction from './AppFunction';
+//import AppFunction from './AppFunction';
+//import Login from './login';
+import Register from './register'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppFunction/>
+    <Register/>
   </React.StrictMode>,
   document.getElementById('root')
 );
